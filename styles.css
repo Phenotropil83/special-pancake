@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(177deg, #ffb811, #dd8c8c, #c51cf4);
+    background-size: 2700% 401%;
+    animation: gradientAnimation 17s ease infinite;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+.header {
+    text-align: center;
+    margin-top: 2px;
+}
+.logo-link {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.logo {
+    width: 174px; /* Измените размер по вашему усмотрению */
+    height: auto;
+    background: none;
+}
+.main_title {
+    padding: 0px 70px 70px 70px;
+    margin: 0px 100px 800px 100px;
+    white-space: normal; /* Автоматический перенос текста */
+    word-break: break-word; /* Перенос длинных слов */
+    background: linear-gradient(10deg, #ffccab, #ffb0f3, #fbface, #f9ebe2, #f2ecd2e5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    color: #f8fbfd;
+    font-size: 1em;
+    font-size: 3.5vw; /* Размер шрифта в зависимости от ширины окна */
+    text-align: center;
+    height: auto;
+}
